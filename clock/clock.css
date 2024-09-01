@@ -1,0 +1,138 @@
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background: #2f363e;
+  justify-content: center;
+}
+
+.container {
+  height: 80vmin;
+  width: 60vmin;
+  border-top-left-radius: 30vmin;
+  border-top-right-radius: 30vmin;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  background: #2f363e;
+  position: absolute;
+  top: 10vmin;
+  box-shadow: 10px 50px 70px rgba(8, 1, 1, 0.558), -5px 15px 70px  rgba(8, 1, 1, 0.558),inset 5px 5px 10px black,inset -5px 5px 10px black,inset 5px -5px 10px black,inset -5px -5px 10px black;
+}
+.circle {
+  position: relative;
+  border-radius: 50%;
+  /* border: 2px solid blue; */
+  height: 60vmin;
+  color:white;
+  box-shadow: 0px -15px 70px rgba(8, 1, 1, 0.158), 0px 50px 30px  rgba(8, 1, 1, 0.158),inset 5px 5px 10px rgb(11, 1, 1),inset -5px 5px 10px rgb(11,1,1),inset 5px -5px 10px rgb(11,1,1),inset -5px -5px 10px rgb(11, 1, 1);
+  background: transparent;
+}
+.hour{
+  font-size: 3vmin;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    text-align: center;
+    inset: 8px;
+    color: hsla(208, 100%, 97%,0.7);
+}
+.i-1{
+  transform: rotate(30deg);
+  /* b{
+    transform: rotate(-30deg);
+  } */
+}
+.i-2{
+  transform: rotate(60deg);
+}
+.i-3{
+  transform: rotate(90deg);
+}
+.i-4{
+  transform: rotate(120deg);
+}
+.i-5{
+  transform: rotate(150deg);
+}
+.i-6{
+  transform: rotate(180deg);
+}
+.i-7{
+  transform: rotate(210deg);
+}
+.i-8{
+  transform: rotate(240deg);
+}
+.i-9{
+  transform: rotate(270deg);
+}
+.i-10{
+  transform: rotate(300deg);
+}
+.i-11{
+  transform: rotate(330deg);
+}
+/* .one{
+  transform: rotate(200deg);
+} */
+
+.bar{
+  position: absolute;
+  transform-origin: bottom;
+}
+.cir{
+  position: absolute;
+  height: 2vmin;
+  width: 2vmin;
+  background-color: red;
+  border-radius: 50%;
+  top: 29vmin;
+  left: 29.5vmin;
+  z-index: 5;
+}
+
+.hr{
+  height:15vmin;
+  width: 6px;
+  background-color:yellow;
+  left: 30vmin;
+  top: 15vmin;
+  z-index: 0;
+  /* transform:rotate(20deg) */
+}
+
+.min{
+  height: 19vmin;
+  width: 4px;
+  background-color: blue;
+  left: 30vmin;
+  top: 11vmin;
+  z-index: 1;
+}
+.sec{
+  height: 23vmin;
+  width: 2px;
+  background-color: white;
+  left: 30vmin;
+  top: 7vmin;
+  z-index: 2;
+}
+
+/* now welcome to digital watch */
+.digital{
+  position: absolute;
+  height: 10vmin;
+  width: 50vmin;
+  border: 1vmin solid rgba(97, 169, 127, 0.92);
+  border-radius: 2vmin;
+  box-shadow: inset 2px 2px 50px 20px rgb(187, 220, 94),2px 2px 20px 2px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  left: 4vmin;
+  bottom: 4vmin;
+  text-align: center;
+  text-justify: center;
+  font-size: 7vmin;
+  color: hsla(182, 77%, 93%, 0.598);
+  /* padding-left: 2vmin; */
+  text-shadow: 5px 5px 5px  orange;
+}

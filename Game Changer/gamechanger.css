@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+.minicir {
+  transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.8s;
+  /* cubic bezier-- to divide time interval of transition or transform into many parts  */
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: aquamarine;
+  z-index: 100;
+  position: absolute;
+  pointer-events: none;
+}
+.sec img {
+  transition: all cubic-bezier(0.25, 0.8, 0.2, 0.75) 1ms;
+  z-index: 101;
+}
+#lpage {
+  position: relative;
+  background-color: black;
+  color: white;
+  /* height: 100%;
+  width: 100%; */
+}
+.topp{
+
+  /* position:-webkit-sticky; */
+  top: 0;
+  right: 0;
+  left: 0;;
+  height: auto;
+  position: sticky;
+  background-color: red;
+}
+
+#nav {
+  font-size: 20px;
+  padding-top: 2vh;
+  padding-bottom: 5vh;
+  width: 100%;
+  height: auto;
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+ 
+  .navlink {
+    margin-left: 4vh;
+  }
+  h5 {
+    margin-right: 1vh;
+  }
+}
+
+.ph,
+.ph1 {
+  margin-top: 0px;
+  line-height: 1;
+  opacity: 0.4;
+  color: #f0f8ff;
+  font-size: 12vmax;
+}
+.ph {
+  margin-left: 60px;
+}
+.ph1 {
+  margin-left: 200px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+.singh {
+  width: 100%;
+  text-align: right;
+  margin-bottom: 5vh;
+  letter-spacing: 0.4vh;
+}
+.sahab {
+  /* background-color: red; */
+  width: 100%;
+  overflow: hidden;
+}
+.block2 {
+  width: fit-content;
+  overflow: hidden;
+}
+.block {
+  overflow: hidden;
+}
+.ph {
+  transform: translateY(100%);
+}
+.ph1 {
+  transform: translateY(120%);
+}
+.singh {
+  transform: translateY(-100%);
+}
+
+#freelancing {
+  margin-right: 2vmax;
+  margin-top: 120px;
+  text-align: right;
+  text-transform: uppercase;
+  overflow: hidden;
+  /* background-color: red; */
+}
+#freelancing p {
+  transform: translateY(-100%);
+}
+
+#bottom {
+  margin-left: 4vh;
+  bottom: 10px;
+  width: 100%;
+  margin-bottom: 20vh;
+  display: flex;
+  justify-content: space-between;
+}
+.arr {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 4vmax;
+}
+.arr .ri-arrow-down-fill {
+  /* margin-right: 10px; */
+  height: 20px;
+  width: 20px;
+  color: blueviolet;
+  background-color: aqua;
+  border-radius: 50%;
+}
+
+/* second page */
+
+.sec {
+  position: relative;
+  margin-left: 4vh;
+  margin-right: 10vh;
+  height: 20vh;
+  width: 100%;
+  border-top: 0.1px white solid;
+  border-bottom: 0.1px white solid;
+  width: 90%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+.sec img {
+  height: 50vh;
+  width: auto;
+  position: absolute;
+  visibility: hidden;
+}
+.sec:hover {
+  cursor: pointer;
+  cursor: none;
+  img {
+    visibility: visible;
+  }
+}
+
+.H2 {
+  font-size: 70px;
+  /* width: 70%; */
+  align-content: center;
+  justify-content: center;
+}
+.h4 {
+  /* width: 30%; */
+  font-size: 14px;
+  align-content: center;
+  justify-content: right;
+}
+.content {
+  margin-top: 200px;
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
+}
+
+.content img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+.about {
+  font-size: 3vmin;
+  /* height: px; */
+  width: 40%;
+  margin-left: 3vmax;
+}
+.about h4 {
+  opacity: 0.6;
+}
+button {
+  font-size: 0.8rem;
+  width: 30%;
+  height: 8%;
+  background-color: transparent;
+  border: white 0.05px solid;
+  outline-offset: 10px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+#forgot {
+  margin-left: 4vh;
+  cursor: pointer;
+}
+.forgot {
+  color: burlywood;
+}
+
+.down {
+  /* background-color: red; */
+  margin-top: 10vh;
+  margin-right: 1vh;
+  margin-left: 4vh;
+
+  display: flex;
+  justify-content: space-between;
+}
+.time {
+  /* background-color: blue; */
+  cursor: pointer;
+  width: 20%;
+
+  display: flex;
+  justify-content: space-between;
+}
+.dribble {
+  /* background-color: blue; */
+  cursor: pointer;
+  width: 30%;
+
+  display: flex;
+  justify-content: space-between;
+}
